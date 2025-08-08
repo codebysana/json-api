@@ -26,13 +26,13 @@ Using JSON Server, I could quickly define endpoints, serve data, and make it acc
 - Created a new project directory and ran:
   ```vscode terminal
   npm init -y
-( - ) This generated the package.json file to manage dependencies.
+* This generated the package.json file to manage dependencies.
 
 ## 2. Installed JSON Server
 Added JSON Server as a dependency:
 
 npm install json-server
-( - ) This package allows serving a JSON file as a fully functional REST API.
+* This package allows serving a JSON file as a fully functional REST API.
 
 ## 3. Created the Database File
 Added a db.json file containing data in JSON format.
@@ -55,7 +55,6 @@ Imported JSON Server, set up middleware, and pointed it to db.json.
 Configured the server to listen on a specific port (default: 3000).
 
 ## Example:
-
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
@@ -83,8 +82,8 @@ Linked the GitHub repository to Vercel.
 
 Configured the project with:
 
-( - ) Build Command: npm install
-( - ) Start Command: node index.js
+* Build Command: npm install
+* Start Command: node index.js
 
 Deployed successfully, making the API publicly accessible via a live Vercel URL.
 
